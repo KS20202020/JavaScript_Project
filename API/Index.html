@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form>
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="100">
+            </div>
+            <div class="from">
+                <p>From</p>
+                <img src="https://flagsapi.com/US/flat/64.png">
+                <select name="from" id="">
+                    <option value="USD">USD</option>
+                    <option value="BDT">BDT</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                </select>
+            </div>
+            <i class="fa-duotone fa-solid fa-arrow-right-arrow-left"></i>
+            <div class="to">
+                <p>To</p>
+                <img src="https://flagsapi.com/BD/flat/64.png">
+                <select name="from" id="">
+                    <option value="BDT">BDT</option>
+                    <option value="USD">USD</option>
+                    <option value="INR">INR</option>
+                    <option value="EUR">EUR</option>
+                    <option value="JPY">JPY</option>
+                </select>
+            </div>
+            <div class="msg">
+
+                <p>1 USD <i class="fa-solid fa-arrow-right-arrow-left"></i> 110 BDT</p>
+            </div>
+            <button>Get Exchange Rate</button>
+        </form>
+    </div>
+</body>
+
+</html>
